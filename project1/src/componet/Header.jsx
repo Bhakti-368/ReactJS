@@ -5,7 +5,7 @@ const mystyle = {
     alignItems: "center",
     backgroundColor: "#5f6a7b",
     padding: "15px 40px",
-  },
+  },      
 
   logo: {
     fontSize: "28px",

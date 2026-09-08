@@ -1,0 +1,561 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #20201f;
+  font-family: "DM Sans", sans-serif;
+}
+
+.portfolio {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  background: #eee3ce;
+  color: #414936;
+  overflow: hidden;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+  min-height: 570px;
+
+  display: grid;
+  grid-template-columns: 48% 52%;
+
+  position: relative;
+
+  background: #eee3ce;
+}
+
+.heroText {
+  padding: 45px 20px 30px 60px;
+  position: relative;
+  z-index: 2;
+}
+
+.smallTop {
+  font-size: 8px;
+  line-height: 1.6;
+  letter-spacing: 1.4px;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+
+  font-size: 65px;
+
+  font-weight: 500;
+
+  letter-spacing: -3px;
+
+  margin-top: 45px;
+
+  white-space: nowrap;
+}
+
+.role {
+  color: #b3664d;
+
+  font-size: 8px;
+
+  letter-spacing: 2px;
+
+  margin-top: 5px;
+}
+
+.quote {
+  display: flex;
+
+  gap: 10px;
+
+  margin-top: 32px;
+}
+
+.quote span {
+  font-family: Georgia, serif;
+
+  font-size: 35px;
+}
+
+.quote p {
+  font-family: Georgia, serif;
+
+  font-size: 10px;
+
+  line-height: 1.5;
+}
+
+.signature {
+  font-family: cursive;
+
+  font-size: 23px;
+
+  color: #b5654c;
+
+  transform: rotate(-5deg);
+
+  margin-top: 18px;
+}
+
+.heroImage {
+  height: 570px;
+
+  overflow: hidden;
+}
+
+.heroImage img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  filter: saturate(0.7);
+}
+
+
+/* ================= ABOUT ================= */
+
+.about {
+  width: 53%;
+
+  min-height: 155px;
+
+  margin-top: -50px;
+
+  position: relative;
+
+  z-index: 5;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 30px 35px 30px 55px;
+
+  color: #eee3ce;
+
+  background: #596248;
+
+  border-radius: 0 100px 100px 0;
+}
+
+.aboutPlant {
+  font-size: 65px;
+
+  color: #d5ceb7;
+
+  transform: rotate(-20deg);
+}
+
+.aboutContent {
+  max-width: 300px;
+}
+
+.heading {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  font-size: 8px;
+
+  letter-spacing: 2px;
+}
+
+.heading span {
+  display: block;
+
+  width: 35px;
+
+  height: 1px;
+
+  background: currentColor;
+
+  opacity: 0.5;
+}
+
+.aboutContent p {
+  font-size: 8px;
+
+  line-height: 1.55;
+
+  margin-top: 10px;
+}
+
+
+/* ================= WORK ================= */
+
+.selectedWork {
+  padding: 30px 55px 35px;
+}
+
+.centerHeading {
+  text-align: center;
+
+  font-size: 8px;
+
+  letter-spacing: 3px;
+
+  margin-bottom: 20px;
+}
+
+.projects {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 15px;
+}
+
+.project img {
+  width: 100%;
+
+  aspect-ratio: 1.15;
+
+  object-fit: cover;
+
+  filter: saturate(0.6);
+}
+
+.category {
+  color: #ad664d;
+
+  font-size: 6px;
+
+  letter-spacing: 1.3px;
+
+  margin-top: 8px;
+}
+
+.project h3 {
+  font-family: "Playfair Display", serif;
+
+  font-size: 12px;
+
+  font-weight: 500;
+
+  margin-top: 4px;
+}
+
+.project p {
+  font-size: 7px;
+
+  margin-top: 2px;
+}
+
+.arrow {
+  font-size: 14px;
+
+  margin-top: 5px;
+}
+
+
+/* ================= MIDDLE ================= */
+
+.middle {
+  display: grid;
+
+  grid-template-columns: 57% 43%;
+}
+
+.approach {
+  background: #b6664a;
+
+  color: #f5e9d7;
+
+  padding: 28px 35px;
+}
+
+.white {
+  color: white;
+}
+
+.steps {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 10px;
+
+  margin-top: 20px;
+
+  text-align: center;
+}
+
+.circle {
+  width: 38px;
+
+  height: 38px;
+
+  border: 1px solid #f4dfc9;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin: auto;
+
+  font-size: 18px;
+}
+
+.step small {
+  display: block;
+
+  font-size: 6px;
+
+  margin-top: 7px;
+}
+
+.step h4 {
+  font-size: 7px;
+
+  margin-top: 4px;
+}
+
+.step p {
+  font-size: 6px;
+
+  line-height: 1.4;
+
+  margin-top: 4px;
+}
+
+.services {
+  background: #bfc3a9;
+
+  padding: 28px 35px;
+
+  position: relative;
+}
+
+.services ul {
+  list-style: none;
+
+  margin-top: 14px;
+}
+
+.services li {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  font-size: 7px;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 10px;
+}
+
+.services li span {
+  width: 18px;
+
+  height: 18px;
+
+  border-radius: 50%;
+
+  background: #62694e;
+
+  color: #eee3ce;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 6px;
+}
+
+.servicePlant {
+  position: absolute;
+
+  right: 20px;
+
+  bottom: 5px;
+
+  font-size: 70px;
+
+  opacity: 0.2;
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact {
+  min-height: 230px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  background: #eee3ce;
+}
+
+.contactText {
+  padding: 35px 20px 25px 55px;
+}
+
+.contactText h2 {
+  font-family: "Playfair Display", serif;
+
+  font-size: 26px;
+
+  font-weight: 500;
+
+  line-height: 0.98;
+}
+
+.contactText p {
+  font-size: 7px;
+
+  line-height: 1.5;
+
+  margin-top: 15px;
+}
+
+.contactSignature {
+  color: #b6664a;
+
+  font-family: cursive;
+
+  font-size: 12px;
+
+  margin-top: 15px;
+}
+
+.contactImage {
+  padding-top: 15px;
+}
+
+.contactImage img {
+  width: 100%;
+
+  height: 215px;
+
+  object-fit: cover;
+
+  border-radius: 90px 90px 0 0;
+
+  filter: saturate(0.6);
+}
+
+.getInTouch {
+  padding: 45px 30px;
+}
+
+.getInTouch p {
+  font-size: 7px;
+
+  margin-top: 10px;
+}
+
+.connect {
+  font-size: 7px;
+
+  letter-spacing: 2px;
+
+  margin-top: 25px;
+}
+
+.social {
+  margin-top: 10px;
+
+  font-size: 10px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 700px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .heroText {
+    padding: 35px 25px;
+  }
+
+  .hero h1 {
+    font-size: 55px;
+  }
+
+  .heroImage {
+    height: 430px;
+  }
+
+  .about {
+    width: 85%;
+
+    margin-top: -35px;
+
+    padding: 25px;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .selectedWork {
+    padding: 30px 25px;
+  }
+
+  .middle {
+    grid-template-columns: 1fr;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+  }
+
+  .contactText {
+    padding: 35px 25px;
+  }
+
+  .contactImage {
+    height: 220px;
+  }
+
+  .getInTouch {
+    padding: 30px 25px;
+  }
+}
+
+
+@media (max-width: 420px) {
+
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .about {
+    width: 92%;
+  }
+
+  .projects {
+    gap: 10px;
+  }
+
+  .steps {
+    grid-template-columns: repeat(2, 1fr);
+
+    row-gap: 20px;
+  }
+
+}
