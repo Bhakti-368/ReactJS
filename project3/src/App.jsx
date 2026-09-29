@@ -1,6 +1,6 @@
-
 import React from "react";
 import "./style.css";
+
 
 function Project1() {
   return (
@@ -32,6 +32,7 @@ function Project2() {
   );
 }
 
+
 function Project3() {
   return (
     <div className="project">
@@ -61,7 +62,7 @@ function Project4() {
     </div>
   );
 }
-
+    
 
 function Service1() {
   return (
