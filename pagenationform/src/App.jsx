@@ -31,7 +31,6 @@ function App() {
 
 
 
-
   return (
     <>
       <div className="container-fluid py-4 bg-light min-vh-100">
@@ -182,5 +181,6 @@ function App() {
     </>
   )
 }
+
 
 export default App
